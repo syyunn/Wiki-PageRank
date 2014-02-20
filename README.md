@@ -1,28 +1,21 @@
 Wiki-PageRank
-
 =============
 
 PageRank calculation for Wikipedia pages
 
 
 Team members: 
-
-=============
-
+------------------------------------------------------------------------------------------
 Manu Sethi and Tanmay Garg
 
 
 API:
-
-==========================================================================================
-
+------------------------------------------------------------------------------------------
 We used the newer API for hadoop which worked on AWS version 2.4.2 (Hadoop 1.0.3) - latest.
 
 
 Steps to develop the code:
-
-==============================================================================================
-
+------------------------------------------------------------------------------------------
 (1) File WikiLinksGraphGenerator.java uses XmlInputFormat.java to parse the file into titles and text using regular expressions. 
 This file also removes the duplicates links and self links. This file does not remove the red links yet. 
 
